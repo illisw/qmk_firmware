@@ -33,7 +33,8 @@
 
 /* Indicatoon led */
 #    define CAPS_LOCK_INDEX 62
-#    define NUM_LOCK_INDEX 37
+// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:455
+//#    define NUM_LOCK_INDEX 37
 
 /* LED Matrix Animation modes. Explicitly enabled
  * For full list of effects, see:

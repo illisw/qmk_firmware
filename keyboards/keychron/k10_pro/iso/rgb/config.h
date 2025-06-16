@@ -35,8 +35,8 @@
 
 /* Turn off backllit if brightness value is low */
 #    define RGB_MATRIX_TURN_OFF_VAL 48
-
-#    define NUM_LOCK_INDEX 37 // NumLock
+// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:455
+//#    define NUM_LOCK_INDEX 37 // NumLock
 
 #    define LOW_BAT_IND_INDEX 99 // Space
 
