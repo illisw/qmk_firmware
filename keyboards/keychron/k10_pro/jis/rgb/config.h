@@ -38,7 +38,7 @@
 
 /* Indication led index */
 #    define CPAS_LOCK_INDEX 63
-// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:455
+// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:480
 //#    define NUM_LOCK_INDEX 38
 #    define LOW_BAT_IND_INDEX 101
 

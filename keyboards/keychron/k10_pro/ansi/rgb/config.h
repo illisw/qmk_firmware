@@ -35,7 +35,7 @@
 
 /* Indication led */
 #    define CAPS_LOCK_INDEX 62
-// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:455
+// Remove NUM_LOCK_INDEX macro to disable num lock behavior in indicator.c:480
 //#    define NUM_LOCK_INDEX 37
 
 #    ifdef VIA_ENABLE

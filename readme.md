@@ -1,3 +1,22 @@
+# About this fork
+
+This fork of https://github.com/Keychron/qmk_firmware disables the num lock backlight behavior for the Keychron K10 Pro.
+
+Easiest way to build and flash (in part borrowed from https://www.reddit.com/r/Keychron/comments/142rvov/comment/jn7of4p/):
+1. Ensure ~10GB free space :)
+2. Get build environment https://msys.qmk.fm
+3. Run QMK MSYS console
+4. navigate into a directory where you want to work with cd command e.g. `cd /c/keyboard_firmware`
+5. `git clone https://github.com/illisw/qmk_firmware.git`
+6. `cd qmk_firmware`
+7. `git checkout bluetooth_playground`
+8. `make git-submodule`
+9. `qmk compile -kb keychron/k10_pro/ansi/rgb -km via`
+10. Connect the keyboard and put it in dfu/bootloader mode
+11. `qmk flash -kb keychron/k10_pro/ansi/rgb -km via`
+
+Thank you u/rlyon01 for the instructions and QMK contributors for such a nice software to work with.
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
